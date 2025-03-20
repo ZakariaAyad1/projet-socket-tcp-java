@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Style général de l'application */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Style des boutons */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Style des champs de texte */
+.text-field, .password-field, .text-area {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-wrap-text: true;
+}
+
+/* Style des labels */
+.label {
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+}
+
+/* Style de la liste des contacts */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+
+.list-cell {
+    -fx-padding: 10px;
+    -fx-background-color: white;
+    -fx-border-color: #eee;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+/* Style des alertes */
+.dialog-pane {
+    -fx-background-color: #f4f4f4;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #333;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Style des transitions */
+.transition {
+    -fx-transition-duration: 0.3s;
+}
+
+/* Style des HBox et VBox */
+.hbox, .vbox {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+}
